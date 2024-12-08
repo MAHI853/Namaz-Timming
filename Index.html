@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Namaz Timings</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <h1>Namaz Timings</h1>
+      <form id="cityForm">
+        <input type="text" id="city" placeholder="ENTER CITY NAME" />
+        <button type="submit" class="btn-grad">Get Timings</button>
+      </form>
+
+  <h1 id="ERROR"></h1>
+  <h1 id="def0"></h1>
+  
+  <table id="timingsTable">
+        <thead>
+          <tr>
+            <th>Prayer</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+      <tbody id="timingsBody"></tbody>
+  </table>
+  <script src="App.js"></script>
+</body>
+</html>

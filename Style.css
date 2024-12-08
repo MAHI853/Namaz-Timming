@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(BGimg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+    
+
+  h1 {
+    color: #ffffff;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+  }
+  table, th, td {
+    border: 2px solid #cfa304;
+    color: whitesmoke;
+  }
+  th, td {
+    text-align: center;
+    padding: 10px;
+  }
+  th {
+    background-color: #1e2762;
+  }
+
+  .btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+  .btn-grad {
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+     width: 100%;
+     font-size: 1.2rem;
+     cursor:pointer;
+     
+     border: none;
+   }
+
+   .btn-grad:hover {
+     background-position: right center;
+     color: #fff;
+     text-decoration: none;
+   }
+
+   input{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 10px; 
+    width: 400px;
+    text-align: center;
+   }
+
+   #ERROR{
+    color: red;
+   }
